@@ -36,7 +36,7 @@ def test_analysis_sentiment():
     assert results[1]['sentiment'] == 'POSTIVE'
 
 def test_analyze_route(client):
-    with patch('app.fetch_reddit_data.fetch_reddit_data') as mock_fetch:
+    with patch('http://app.fetch_reddit_data.fetch_reddit_data') as mock_fetch:
         mock_fetch.return_value = [
           {
                "title":"I go to Loyola Maryland and don't know what to major",
