@@ -1,0 +1,15 @@
+2025-06-09 13:13:47,760 = app.logger - INFO - Data fetched from sentimental analysis table
+2025-06-09 13:21:03,840 = app.logger - INFO - Data fetched from sentimental analysis table
+2025-06-09 13:22:17,822 = app.logger - INFO - Data fetched from sentimental analysis table
+2025-06-09 13:32:09,997 = app.logger - INFO - Data fetched from sentimental analysis table
+2025-06-09 13:35:16,177 = app.logger - INFO - Data fetched from sentimental analysis table
+2025-06-09 15:08:11,112 = app.logger - INFO - Data fetched from sentimental analysis table
+2025-06-09 15:36:27,340 - app.logger - INFO - Data for topic 'machine learning' fetched from database.
+2025-06-09 15:38:20,336 - app.logger - INFO - Data for topic 'machine learning ' fetched from database.
+2025-06-09 15:39:18,164 - app.logger - INFO - No data for topic 'Sex' found in database. Fetching from Reddit.
+2025-06-09 15:39:23,004 - app.logger - INFO - Sentiment analysis results for topic 'Sex' saved to database.
+2025-06-09 15:40:33,456 - app.logger - INFO - No data for topic 'cuckold' found in database. Fetching from Reddit.
+2025-06-09 15:40:36,619 - app.logger - INFO - Sentiment analysis results for topic 'cuckold' saved to database.
+2025-06-09 15:42:20,062 - app.logger - INFO - No data for topic 'India' found in database. Fetching from Reddit.
+2025-06-09 15:42:21,985 - app.logger - INFO - Sentiment analysis results for topic 'India' saved to database.
+2025-06-09 15:56:42,638 - app.logger - INFO - Data for topic 'machine learning ' fetched from database.
