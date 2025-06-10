@@ -8,9 +8,7 @@ from collections import Counter
 import re
 import matplotlib.pyplot as plt
 from flask import current_app
-import nltk # Import nltk for stopwords
-
-# Set Matplotlib backend to 'Agg' for non-interactive environments (like web servers)
+import nltk 
 matplotlib.use('Agg')
 
 def create_directory(path):
@@ -54,7 +52,7 @@ def generate_graphs(sentiment_results, topic):
     bar_chart_path = os.path.join(images_dir, 'sentiment_bar_chart.png')
     word_chart_path = os.path.join(images_dir, "word_cloud.png")
 
-    # --- Generate Bar Chart (Sentiment Counts) ---
+    # Bar Chart (Sentiment Counts)
     plt.figure(figsize=(10, 6))
     # Create a bar plot of sentiment counts
     ax = sns.barplot(x=sentiment_labels, y=sentiment_values, palette='viridis') # Changed palette to 'viridis'

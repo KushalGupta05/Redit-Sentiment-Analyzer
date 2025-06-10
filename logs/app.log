@@ -13,3 +13,13 @@
 2025-06-09 15:42:20,062 - app.logger - INFO - No data for topic 'India' found in database. Fetching from Reddit.
 2025-06-09 15:42:21,985 - app.logger - INFO - Sentiment analysis results for topic 'India' saved to database.
 2025-06-09 15:56:42,638 - app.logger - INFO - Data for topic 'machine learning ' fetched from database.
+2025-06-10 11:11:18,294 - app.logger - INFO - No data for topic 'machine learning ' found in database. Fetching from Reddit.
+2025-06-10 11:11:20,194 - app.logger - INFO - Sentiment analysis results for topic 'machine learning ' saved to database.
+2025-06-10 11:11:51,149 - app.logger - INFO - No data for topic 'Solar' found in database. Fetching from Reddit.
+2025-06-10 11:11:54,782 - app.logger - INFO - Sentiment analysis results for topic 'Solar' saved to database.
+2025-06-10 11:18:22,653 - app.logger - INFO - No data for topic 'science' found in database. Fetching from Reddit.
+2025-06-10 11:18:22,659 - app.logger - INFO - Sentiment analysis results for topic 'science' saved to database.
+2025-06-10 11:26:02,152 - app.logger - INFO - No data for topic 'machine learning ' found in database. Fetching from Reddit.
+2025-06-10 11:26:19,512 - app.logger - INFO - Sentiment analysis results for topic 'machine learning ' saved to database.
+2025-06-10 11:26:27,130 - app.logger - INFO - No data for topic 'modi' found in database. Fetching from Reddit.
+2025-06-10 11:26:29,460 - app.logger - INFO - Sentiment analysis results for topic 'modi' saved to database.

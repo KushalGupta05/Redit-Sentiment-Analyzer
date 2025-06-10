@@ -38,12 +38,12 @@ def fetch_reddit_data(topic, limit=10):
             # Append post details to the list
             posts.append({
                 'title': submission.title,
-                # Use submission.selftext for text posts, or 'No Content Available' if empty
+                
                 'content': submission.selftext or 'No Content Available',
                 'url': submission.url
             })
         return posts
     except Exception as e:
-        # Print error message if fetching fails
+        
         print(f"Error fetching data from Reddit: {e}")
         return [] # Return empty list on error

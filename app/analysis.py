@@ -2,17 +2,9 @@ import nltk
 import os
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-# --- IMPORTANT: NLTK Data Path Configuration ---
-# Ensure NLTK can find its data.
-# This path should point to where 'vader_lexicon' is (or will be) downloaded.
-# It's set in app.py to ensure download before the app runs fully.
-# The `nltk.data.path.append` ensures NLTK looks in the specified directory
-# (e.g., a 'nltk_data' folder in the root of your project).
 nltk.data.path.append(os.path.join(os.getcwd(), 'nltk_data'))
 
 
-# Initialize VADER SentimentIntensityAnalyzer
-# This needs the 'vader_lexicon' data, which should be downloaded when the app starts.
 sia = SentimentIntensityAnalyzer()
 
 def analyze_sentiment(posts):
